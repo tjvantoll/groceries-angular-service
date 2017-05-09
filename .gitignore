@@ -1,5 +1,5 @@
 node_modules
 demo/hooks
-demo/platform
+demo/platforms
 *.js
 *.js.map
