@@ -1,0 +1,47 @@
+{
+  "name": "groceries-angular-service",
+  "version": "0.1.0",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    }
+  },
+  "description": "Angular Service to be used with the sample groceries project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preparedemo": "tsc && cd demo && tns plugin remove groceries-angular-service && tns plugin add .. && tns install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebawita/groceries-angular-service.git"
+  },
+  "keywords": [
+    "Angular",
+    "Service",
+    "API",
+    "NativeScript",
+    "PetFinder"
+  ],
+  "author": "Sebastian Witalec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebawita/groceries-angular-service/issues"
+  },
+  "homepage": "https://github.com/sebawita/groceries-angular-service#readme",
+  "dependencies": {
+    "email-validator": "~1.0.7"
+  },
+  "devDependencies": {
+    "@angular/common": "4.1.0",
+    "@angular/compiler": "4.1.0",
+    "@angular/core": "4.1.0",
+    "@angular/forms": "4.1.0",
+    "@angular/http": "4.1.0",
+    "@angular/platform-browser": "4.1.0",
+    "@angular/platform-browser-dynamic": "4.1.0",
+    "rxjs": "~5.3.1",
+    "zone.js": "~0.8.10"
+  }
+}

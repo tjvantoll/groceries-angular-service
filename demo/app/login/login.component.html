@@ -1,0 +1,13 @@
+<StackLayout class="m-l-5">
+  <ActionBar title="Login" icon="" class="action-bar">
+  </ActionBar>
+  
+  <Label text="Email" class="h2"></Label>
+  <TextField hint="email..." [(ngModel)]="user.email"></TextField>
+  
+  <Label text="Password" class="h2"></Label>
+  <TextField hint="password..." [(ngModel)]="user.password"></TextField>
+
+  <Button text="Login" (tap)="login()" class="btn btn-primary"></Button>
+  <Button text="Sign Up" (tap)="signUp()" class="btn btn-primary"></Button>
+</StackLayout>
